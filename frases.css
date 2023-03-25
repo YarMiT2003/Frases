@@ -1,33 +1,33 @@
 @importar  url ( 'https://fonts.googleapis.com/css2? family= Delicious+Handrawn & display=swap' );
+body{
+  background-image: url("fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 1800px 1000px;
+}
 h1{
     font-size: 40px;
     color: #1b9dc5;
     font-family: 'Delicious Handrawn';
     text-align: center;
     }
-h2{
-    font-size: 36px;
-    color: #1abff1;
-    font-family: 'Delicious Handrawn';
-    text-align: center;
-    }
 p{
-    font-size: 30px;
-    color: #09475a;
+    font-size: 36px;
+    color: #30b7e0;
     font-family: 'Delicious Handrawn';
     text-align: center;
     }
-button {
+
+div{
+      text-align: center;
+}
+button{
     display: inline-block;
-    padding: 0.85em 1.5em;
-    font-size: 1 em;
+    padding: 2em 3em;
+    font-size: 2em;
     cursor: pointer;
     text-decoration: none;
     color: #ffffff;
-    background-color: #5D5D9B;
-    border: none;
-    border-radius: 0;
-  .button:hover {
-    background-color: #8484cf;
+    background-color: #15606d;
+    border: 10px outset #052b4463;
+    background-color: #02d4db;
   }
-}
